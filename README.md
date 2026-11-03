@@ -294,3 +294,4 @@ ANPR-for-VISTA/
 Developed by **Dilip Kannan** as part of the **VISTA** (Vehicle Intelligence, Surveillance & Traffic Analytics) initiative.
 
 For questions, issues, or contributions, please open an issue on the [GitHub Repository](https://github.com/DILIP-KANNAN/ANPR-for-VISTA).
+

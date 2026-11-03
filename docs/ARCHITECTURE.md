@@ -160,3 +160,4 @@ For standalone deployment on **NVIDIA Jetson Orin Nano (8GB)** or **Jetson Orin 
    # OSNet Vehicle ReID
    trtexec --onnx=weights/vehicle_reid.onnx --fp16 --saveEngine=weights/vehicle_reid.engine
    ```
+
