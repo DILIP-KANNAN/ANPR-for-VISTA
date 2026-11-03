@@ -1,0 +1,22 @@
+[
+  {
+    "event_id": "evt_00124",
+    "camera_id": "CAM07",
+    "timestamp": "2026-09-07T19:21:44",
+    "location": "Anna Nagar",
+    "vehicle": {
+      "track_id": 1,
+      "type": "car",
+      "color": "silver",
+      "speed_kmph": 40.0,
+      "direction": "N"
+    },
+    "anpr": {
+      "plate": "MH47Y1124",
+      "confidence": 0.93,
+      "ocr_confidence": 1.0,
+      "grammar_score": 0.99,
+      "temporal_consistency": 1.0
+    }
+  }
+]

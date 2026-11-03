@@ -1,0 +1,65 @@
+# =============================================================================
+# Git Ignore for ANPR for VISTA
+# =============================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Caches & Environment
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Operating System & IDE artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*~
+
+# Temporary Test & Visualization Artifacts
+*.log
+output_test.jpg
+ind_0001_annotated.jpg
+runs/detect/
+runs/**/*.jpg
+runs/**/*.png
+runs/**/*.csv
+runs/**/*.yaml
+
+# Large Raw Datasets (Exclude bulky image files and caches, keep configs)
+datasets/**/images/
+datasets/**/labels/
+datasets/**/crops/
+datasets/**/synthetic_*/
+datasets/**/*.cache
+datasets/**/*.jpg
+datasets/**/*.png
+datasets/**/*.jpeg
+datasets/**/*.zip
+
+# Redundant / Backup weights (Keep only production model weights)
+weights/*_v1.pt
+weights/*_traced.pt
+*.pt.backup
+yolov8n.pt
+yolo11n.pt
+
+# Allow essential config and label files inside datasets/
+!datasets/**/data.yaml
+!datasets/**/vocab.txt
+!datasets/**/ground_truth.csv
+!datasets/**/val.txt
+!datasets/**/train.txt
+datasets/**/train_augmented.txt
+datasets/**/train_svtr_50k.txt

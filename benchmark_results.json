@@ -1,0 +1,402 @@
+[
+  {
+    "event_id": "evt_00124",
+    "camera_id": "CAM07",
+    "timestamp": "2026-09-07T19:19:33",
+    "location": "Anna Nagar",
+    "vehicle": {
+      "track_id": 1,
+      "type": "car",
+      "color": "black",
+      "speed_kmph": 40.0,
+      "direction": "N"
+    },
+    "anpr": {
+      "plate": "UP8LAE9889MH0",
+      "confidence": 0.93,
+      "ocr_confidence": 0.55,
+      "grammar_score": 0.6,
+      "temporal_consistency": 1.0
+    }
+  },
+  {
+    "event_id": "evt_00126",
+    "camera_id": "CAM07",
+    "timestamp": "2026-09-07T19:19:34",
+    "location": "Anna Nagar",
+    "vehicle": {
+      "track_id": 3,
+      "type": "truck",
+      "color": "red",
+      "speed_kmph": 40.0,
+      "direction": "N"
+    },
+    "anpr": {
+      "plate": "II829RJ1681",
+      "confidence": 0.53,
+      "ocr_confidence": 0.39,
+      "grammar_score": 0.7,
+      "temporal_consistency": 1.0
+    }
+  },
+  {
+    "event_id": "evt_00128",
+    "camera_id": "CAM07",
+    "timestamp": "2026-09-07T19:19:34",
+    "location": "Anna Nagar",
+    "vehicle": {
+      "track_id": 1,
+      "type": "car",
+      "color": "black",
+      "speed_kmph": 120.0,
+      "direction": "NE"
+    },
+    "anpr": {
+      "plate": "UP8LAE9889MH0",
+      "confidence": 0.61,
+      "ocr_confidence": 0.45,
+      "grammar_score": 0.4,
+      "temporal_consistency": 0.54
+    }
+  },
+  {
+    "event_id": "evt_00129",
+    "camera_id": "CAM07",
+    "timestamp": "2026-09-07T19:19:36",
+    "location": "Anna Nagar",
+    "vehicle": {
+      "track_id": 1,
+      "type": "car",
+      "color": "red",
+      "speed_kmph": 56.6,
+      "direction": "NE"
+    },
+    "anpr": {
+      "plate": "KL10AG7249",
+      "confidence": 0.53,
+      "ocr_confidence": 0.62,
+      "grammar_score": 0.99,
+      "temporal_consistency": 0.41
+    }
+  },
+  {
+    "event_id": "evt_00130",
+    "camera_id": "CAM07",
+    "timestamp": "2026-09-07T19:19:36",
+    "location": "Anna Nagar",
+    "vehicle": {
+      "track_id": 1,
+      "type": "car",
+      "color": "red",
+      "speed_kmph": 82.7,
+      "direction": "E"
+    },
+    "anpr": {
+      "plate": "KL10AG7249",
+      "confidence": 0.47,
+      "ocr_confidence": 0.56,
+      "grammar_score": 0.99,
+      "temporal_consistency": 0.36
+    }
+  },
+  {
+    "event_id": "evt_00131",
+    "camera_id": "CAM07",
+    "timestamp": "2026-09-07T19:19:37",
+    "location": "Anna Nagar",
+    "vehicle": {
+      "track_id": 5,
+      "type": "car",
+      "color": "silver",
+      "speed_kmph": 40.0,
+      "direction": "N"
+    },
+    "anpr": {
+      "plate": "MH47Y1124",
+      "confidence": 0.93,
+      "ocr_confidence": 1.0,
+      "grammar_score": 0.99,
+      "temporal_consistency": 1.0
+    }
+  },
+  {
+    "event_id": "evt_00132",
+    "camera_id": "CAM07",
+    "timestamp": "2026-09-07T19:19:37",
+    "location": "Anna Nagar",
+    "vehicle": {
+      "track_id": 6,
+      "type": "car",
+      "color": "white",
+      "speed_kmph": 40.0,
+      "direction": "N"
+    },
+    "anpr": {
+      "plate": "MH0LBI7906",
+      "confidence": 0.83,
+      "ocr_confidence": 0.86,
+      "grammar_score": 0.99,
+      "temporal_consistency": 1.0
+    }
+  },
+  {
+    "event_id": "evt_00133",
+    "camera_id": "CAM07",
+    "timestamp": "2026-09-07T19:19:38",
+    "location": "Anna Nagar",
+    "vehicle": {
+      "track_id": 7,
+      "type": "car",
+      "color": "red",
+      "speed_kmph": 40.0,
+      "direction": "N"
+    },
+    "anpr": {
+      "plate": "SK04P1320",
+      "confidence": 0.91,
+      "ocr_confidence": 0.81,
+      "grammar_score": 0.99,
+      "temporal_consistency": 1.0
+    }
+  },
+  {
+    "event_id": "evt_00135",
+    "camera_id": "CAM07",
+    "timestamp": "2026-09-07T19:19:38",
+    "location": "Anna Nagar",
+    "vehicle": {
+      "track_id": 9,
+      "type": "car",
+      "color": "silver",
+      "speed_kmph": 40.0,
+      "direction": "N"
+    },
+    "anpr": {
+      "plate": "HH07MAH8L95",
+      "confidence": 0.9,
+      "ocr_confidence": 0.3,
+      "grammar_score": 0.55,
+      "temporal_consistency": 1.0
+    }
+  },
+  {
+    "event_id": "evt_00136",
+    "camera_id": "CAM07",
+    "timestamp": "2026-09-07T19:19:39",
+    "location": "Anna Nagar",
+    "vehicle": {
+      "track_id": 10,
+      "type": "car",
+      "color": "silver",
+      "speed_kmph": 40.0,
+      "direction": "N"
+    },
+    "anpr": {
+      "plate": "MR09CK44943",
+      "confidence": 0.86,
+      "ocr_confidence": 0.29,
+      "grammar_score": 0.7,
+      "temporal_consistency": 1.0
+    }
+  },
+  {
+    "event_id": "evt_00140",
+    "camera_id": "CAM07",
+    "timestamp": "2026-09-07T19:19:39",
+    "location": "Anna Nagar",
+    "vehicle": {
+      "track_id": 14,
+      "type": "car",
+      "color": "blue",
+      "speed_kmph": 40.0,
+      "direction": "N"
+    },
+    "anpr": {
+      "plate": "AP31EF1155",
+      "confidence": 0.89,
+      "ocr_confidence": 0.47,
+      "grammar_score": 0.99,
+      "temporal_consistency": 1.0
+    }
+  },
+  {
+    "event_id": "evt_00141",
+    "camera_id": "CAM07",
+    "timestamp": "2026-09-07T19:19:39",
+    "location": "Anna Nagar",
+    "vehicle": {
+      "track_id": 1,
+      "type": "car",
+      "color": "silver",
+      "speed_kmph": 20.3,
+      "direction": "SE"
+    },
+    "anpr": {
+      "plate": "KL10AG7289",
+      "confidence": 0.45,
+      "ocr_confidence": 0.58,
+      "grammar_score": 0.99,
+      "temporal_consistency": 0.31
+    }
+  },
+  {
+    "event_id": "evt_00142",
+    "camera_id": "CAM07",
+    "timestamp": "2026-09-07T19:19:40",
+    "location": "Anna Nagar",
+    "vehicle": {
+      "track_id": 15,
+      "type": "truck",
+      "color": "white",
+      "speed_kmph": 40.0,
+      "direction": "N"
+    },
+    "anpr": {
+      "plate": "EP8O539T2J",
+      "confidence": 0.83,
+      "ocr_confidence": 0.1,
+      "grammar_score": 0.25,
+      "temporal_consistency": 1.0
+    }
+  },
+  {
+    "event_id": "evt_00143",
+    "camera_id": "CAM07",
+    "timestamp": "2026-09-07T19:19:40",
+    "location": "Anna Nagar",
+    "vehicle": {
+      "track_id": 16,
+      "type": "truck",
+      "color": "yellow",
+      "speed_kmph": 40.0,
+      "direction": "N"
+    },
+    "anpr": {
+      "plate": "OSH6564",
+      "confidence": 0.9,
+      "ocr_confidence": 0.34,
+      "grammar_score": 0.3,
+      "temporal_consistency": 1.0
+    }
+  },
+  {
+    "event_id": "evt_00145",
+    "camera_id": "CAM07",
+    "timestamp": "2026-09-07T19:19:41",
+    "location": "Anna Nagar",
+    "vehicle": {
+      "track_id": 18,
+      "type": "car",
+      "color": "silver",
+      "speed_kmph": 40.0,
+      "direction": "N"
+    },
+    "anpr": {
+      "plate": "",
+      "confidence": 0.8,
+      "ocr_confidence": 0.01,
+      "grammar_score": 0.0,
+      "temporal_consistency": 0.95
+    }
+  },
+  {
+    "event_id": "evt_00146",
+    "camera_id": "CAM07",
+    "timestamp": "2026-09-07T19:19:41",
+    "location": "Anna Nagar",
+    "vehicle": {
+      "track_id": 19,
+      "type": "car",
+      "color": "white",
+      "speed_kmph": 40.0,
+      "direction": "N"
+    },
+    "anpr": {
+      "plate": "ELQ1H689",
+      "confidence": 0.91,
+      "ocr_confidence": 0.11,
+      "grammar_score": 0.3,
+      "temporal_consistency": 1.0
+    }
+  },
+  {
+    "event_id": "evt_00148",
+    "camera_id": "CAM07",
+    "timestamp": "2026-09-07T19:19:41",
+    "location": "Anna Nagar",
+    "vehicle": {
+      "track_id": 21,
+      "type": "car",
+      "color": "white",
+      "speed_kmph": 40.0,
+      "direction": "N"
+    },
+    "anpr": {
+      "plate": "RAP310T9278",
+      "confidence": 0.88,
+      "ocr_confidence": 0.3,
+      "grammar_score": 0.45,
+      "temporal_consistency": 1.0
+    }
+  },
+  {
+    "event_id": "evt_00151",
+    "camera_id": "CAM07",
+    "timestamp": "2026-09-07T19:19:42",
+    "location": "Anna Nagar",
+    "vehicle": {
+      "track_id": 1,
+      "type": "car",
+      "color": "yellow",
+      "speed_kmph": 22.1,
+      "direction": "S"
+    },
+    "anpr": {
+      "plate": "KL00AG7289",
+      "confidence": 0.44,
+      "ocr_confidence": 0.61,
+      "grammar_score": 0.99,
+      "temporal_consistency": 0.3
+    }
+  },
+  {
+    "event_id": "evt_00152",
+    "camera_id": "CAM07",
+    "timestamp": "2026-09-07T19:19:42",
+    "location": "Anna Nagar",
+    "vehicle": {
+      "track_id": 24,
+      "type": "car",
+      "color": "white",
+      "speed_kmph": 40.0,
+      "direction": "N"
+    },
+    "anpr": {
+      "plate": "HH0LAV0059",
+      "confidence": 0.85,
+      "ocr_confidence": 0.31,
+      "grammar_score": 0.99,
+      "temporal_consistency": 1.0
+    }
+  },
+  {
+    "event_id": "evt_00154",
+    "camera_id": "CAM07",
+    "timestamp": "2026-09-07T19:19:43",
+    "location": "Anna Nagar",
+    "vehicle": {
+      "track_id": 26,
+      "type": "car",
+      "color": "white",
+      "speed_kmph": 40.0,
+      "direction": "N"
+    },
+    "anpr": {
+      "plate": "GJ06KP8508",
+      "confidence": 0.89,
+      "ocr_confidence": 0.96,
+      "grammar_score": 0.99,
+      "temporal_consistency": 1.0
+    }
+  }
+]

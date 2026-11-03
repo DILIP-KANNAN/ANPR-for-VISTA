@@ -1,0 +1,2088 @@
+{
+  "timestamp": "2026-09-08 11:03:33",
+  "hardware": "NVIDIA GeForce RTX 4060 Laptop GPU (8GB VRAM)",
+  "sample_images": [
+    "ind_0704.jpg",
+    "ind_0710.jpg",
+    "ind_0716.jpg",
+    "ind_0717.jpg",
+    "ind_0721.jpg",
+    "ind_0729.jpg",
+    "ind_0738.jpg",
+    "ind_0769.jpg",
+    "ind_0776.jpg",
+    "ind_0780.jpg",
+    "ind_0806.jpg",
+    "ind_0818.jpg",
+    "ind_0827.jpg",
+    "ind_0852.jpg",
+    "ind_0853.jpg",
+    "ind_0859.jpg",
+    "ind_0865.jpg",
+    "ind_0869.jpg",
+    "ind_0874.jpg",
+    "ind_0879.jpg",
+    "ind_0883.jpg",
+    "ind_0909.jpg",
+    "ind_0930.jpg",
+    "ind_0934.jpg",
+    "ind_0946.jpg",
+    "ind_0948.jpg",
+    "ind_0957.jpg",
+    "ind_0965.jpg",
+    "ind_0967.jpg",
+    "ind_0972.jpg",
+    "ind_0977.jpg",
+    "ind_0981.jpg",
+    "ind_0983.jpg",
+    "ind_0992.jpg",
+    "ind_0996.jpg",
+    "ind_1001.jpg",
+    "ind_1008.jpg",
+    "ind_1014.jpg",
+    "ind_1017.jpg",
+    "ind_1019.jpg",
+    "ind_1025.jpg",
+    "ind_1027.jpg",
+    "ind_1029.jpg",
+    "ind_1030.jpg",
+    "ind_1034.jpg",
+    "ind_1035.jpg",
+    "ind_1040.jpg",
+    "ind_1047.jpg",
+    "ind_1050.jpg",
+    "ind_1056.jpg"
+  ],
+  "metrics": {
+    "Current Pipeline (Enhancer + Ambiguity)": {
+      "exact_match_rate": 70.0,
+      "character_accuracy": 91.07,
+      "avg_latency_ms": 941.0
+    },
+    "Current Pipeline (Only Enhancer, No Ambiguity)": {
+      "exact_match_rate": 58.0,
+      "character_accuracy": 89.51,
+      "avg_latency_ms": 923.4
+    },
+    "Previous Baseline (No Enhancer, No Ambiguity)": {
+      "exact_match_rate": 68.0,
+      "character_accuracy": 92.86,
+      "avg_latency_ms": 1014.1
+    },
+    "Previous Pipeline (No Enhancer, With Ambiguity)": {
+      "exact_match_rate": 80.0,
+      "character_accuracy": 94.58,
+      "avg_latency_ms": 984.4
+    }
+  },
+  "per_sample_details": {
+    "Current Pipeline (Enhancer + Ambiguity)": [
+      {
+        "image": "ind_0704.jpg",
+        "ground_truth": "MH02DS9365",
+        "prediction": "MH02DS9365",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.91,
+        "grammar_score": 0.99,
+        "latency_ms": 3558.0
+      },
+      {
+        "image": "ind_0710.jpg",
+        "ground_truth": "KL43B2344",
+        "prediction": "KL43B2344",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.91,
+        "grammar_score": 0.99,
+        "latency_ms": 3189.7
+      },
+      {
+        "image": "ind_0716.jpg",
+        "ground_truth": "MH48AC6244",
+        "prediction": "MH48AC6244",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.88,
+        "grammar_score": 0.99,
+        "latency_ms": 818.0
+      },
+      {
+        "image": "ind_0717.jpg",
+        "ground_truth": "KL53E964",
+        "prediction": "KL53E964",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.92,
+        "grammar_score": 0.9,
+        "latency_ms": 1267.6
+      },
+      {
+        "image": "ind_0721.jpg",
+        "ground_truth": "HR51BU8218",
+        "prediction": "HR5JBU8218",
+        "exact_match": false,
+        "char_accuracy": 0.9,
+        "confidence": 0.86,
+        "grammar_score": 0.99,
+        "latency_ms": 1001.6
+      },
+      {
+        "image": "ind_0729.jpg",
+        "ground_truth": "MH12JC2813",
+        "prediction": "MH12JC2813",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.92,
+        "grammar_score": 0.99,
+        "latency_ms": 719.1
+      },
+      {
+        "image": "ind_0738.jpg",
+        "ground_truth": "MH43AF5037",
+        "prediction": "MH43AF5037",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.92,
+        "grammar_score": 0.99,
+        "latency_ms": 557.0
+      },
+      {
+        "image": "ind_0769.jpg",
+        "ground_truth": "GJ09AG8384",
+        "prediction": "GJ09AG8384",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.87,
+        "grammar_score": 0.99,
+        "latency_ms": 704.4
+      },
+      {
+        "image": "ind_0776.jpg",
+        "ground_truth": "MH02EU4884",
+        "prediction": "MH02EU4884",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.92,
+        "grammar_score": 0.99,
+        "latency_ms": 716.2
+      },
+      {
+        "image": "ind_0780.jpg",
+        "ground_truth": "JK02CC0447",
+        "prediction": "JK02CC0447",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.89,
+        "grammar_score": 0.99,
+        "latency_ms": 666.8
+      },
+      {
+        "image": "ind_0806.jpg",
+        "ground_truth": "MH12GR862",
+        "prediction": "MH12GR862",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.86,
+        "grammar_score": 0.9,
+        "latency_ms": 747.9
+      },
+      {
+        "image": "ind_0818.jpg",
+        "ground_truth": "MH13BN4348",
+        "prediction": "MH13AEABBN",
+        "exact_match": false,
+        "char_accuracy": 0.4,
+        "confidence": 0.83,
+        "grammar_score": 0.6,
+        "latency_ms": 739.5
+      },
+      {
+        "image": "ind_0827.jpg",
+        "ground_truth": "MH02DN8718",
+        "prediction": "MH02DN8718",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.93,
+        "grammar_score": 0.99,
+        "latency_ms": 828.5
+      },
+      {
+        "image": "ind_0852.jpg",
+        "ground_truth": "MH02B16890",
+        "prediction": "MT02BT6890",
+        "exact_match": false,
+        "char_accuracy": 0.8,
+        "confidence": 0.72,
+        "grammar_score": 0.99,
+        "latency_ms": 749.7
+      },
+      {
+        "image": "ind_0853.jpg",
+        "ground_truth": "MP09CC1667",
+        "prediction": "NEMDCCUPY",
+        "exact_match": false,
+        "char_accuracy": 0.2,
+        "confidence": 0.85,
+        "grammar_score": 0.15,
+        "latency_ms": 582.1
+      },
+      {
+        "image": "ind_0859.jpg",
+        "ground_truth": "HR26DK0830",
+        "prediction": "HR26DK0830",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.92,
+        "grammar_score": 0.99,
+        "latency_ms": 711.4
+      },
+      {
+        "image": "ind_0865.jpg",
+        "ground_truth": "CG13AE4060",
+        "prediction": "CG13AE2060",
+        "exact_match": false,
+        "char_accuracy": 0.9,
+        "confidence": 0.86,
+        "grammar_score": 0.99,
+        "latency_ms": 624.8
+      },
+      {
+        "image": "ind_0869.jpg",
+        "ground_truth": "MH02DQ0196",
+        "prediction": "MH02DQ0196",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.93,
+        "grammar_score": 0.99,
+        "latency_ms": 961.2
+      },
+      {
+        "image": "ind_0874.jpg",
+        "ground_truth": "TN21AU7234",
+        "prediction": "TN21AU7234",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.87,
+        "grammar_score": 0.99,
+        "latency_ms": 770.8
+      },
+      {
+        "image": "ind_0879.jpg",
+        "ground_truth": "MH12SF3212",
+        "prediction": "SF3212",
+        "exact_match": false,
+        "char_accuracy": 0.6,
+        "confidence": 0.51,
+        "grammar_score": 0.55,
+        "latency_ms": 610.6
+      },
+      {
+        "image": "ind_0883.jpg",
+        "ground_truth": "TN21AT0479",
+        "prediction": "TN21AT0479",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.81,
+        "grammar_score": 0.99,
+        "latency_ms": 1392.7
+      },
+      {
+        "image": "ind_0909.jpg",
+        "ground_truth": "MH02DS9365",
+        "prediction": "MH02DS9365",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.92,
+        "grammar_score": 0.99,
+        "latency_ms": 755.3
+      },
+      {
+        "image": "ind_0930.jpg",
+        "ground_truth": "KL7BZ99",
+        "prediction": "KL78Z99",
+        "exact_match": false,
+        "char_accuracy": 0.8571,
+        "confidence": 0.83,
+        "grammar_score": 0.9,
+        "latency_ms": 606.3
+      },
+      {
+        "image": "ind_0934.jpg",
+        "ground_truth": "AP39E1493",
+        "prediction": "AP39E1493",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.86,
+        "grammar_score": 0.99,
+        "latency_ms": 690.5
+      },
+      {
+        "image": "ind_0946.jpg",
+        "ground_truth": "GJ18BD5216",
+        "prediction": "GJ18BD5216",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.86,
+        "grammar_score": 0.99,
+        "latency_ms": 732.8
+      },
+      {
+        "image": "ind_0948.jpg",
+        "ground_truth": "MH02DS4676",
+        "prediction": "MH02DS4676",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.88,
+        "grammar_score": 0.99,
+        "latency_ms": 1329.5
+      },
+      {
+        "image": "ind_0957.jpg",
+        "ground_truth": "MH47AV6753",
+        "prediction": "MH47AV6753",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.93,
+        "grammar_score": 0.99,
+        "latency_ms": 739.7
+      },
+      {
+        "image": "ind_0965.jpg",
+        "ground_truth": "TN28BA9999",
+        "prediction": "TN28BA9999",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.89,
+        "grammar_score": 0.99,
+        "latency_ms": 643.5
+      },
+      {
+        "image": "ind_0967.jpg",
+        "ground_truth": "KA38M8037",
+        "prediction": "KA38M8037",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.89,
+        "grammar_score": 0.99,
+        "latency_ms": 719.3
+      },
+      {
+        "image": "ind_0972.jpg",
+        "ground_truth": "AR048395",
+        "prediction": "AR048395",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.83,
+        "grammar_score": 0.99,
+        "latency_ms": 1316.6
+      },
+      {
+        "image": "ind_0977.jpg",
+        "ground_truth": "MH03CS6266",
+        "prediction": "MH03CS6266",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.95,
+        "grammar_score": 0.99,
+        "latency_ms": 825.3
+      },
+      {
+        "image": "ind_0981.jpg",
+        "ground_truth": "MH36H5700",
+        "prediction": "MH615700",
+        "exact_match": false,
+        "char_accuracy": 0.7778,
+        "confidence": 0.76,
+        "grammar_score": 0.99,
+        "latency_ms": 713.9
+      },
+      {
+        "image": "ind_0983.jpg",
+        "ground_truth": "HP666807",
+        "prediction": "HP666807",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.86,
+        "grammar_score": 0.99,
+        "latency_ms": 638.0
+      },
+      {
+        "image": "ind_0992.jpg",
+        "ground_truth": "GJ06FK2977",
+        "prediction": "GJ06FK2977",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.89,
+        "grammar_score": 0.99,
+        "latency_ms": 1131.7
+      },
+      {
+        "image": "ind_0996.jpg",
+        "ground_truth": "HR26CK8571",
+        "prediction": "HR26CK8571",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.89,
+        "grammar_score": 0.99,
+        "latency_ms": 917.6
+      },
+      {
+        "image": "ind_1001.jpg",
+        "ground_truth": "MH47AZ8323",
+        "prediction": "MH47AZ8323",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.89,
+        "grammar_score": 0.99,
+        "latency_ms": 779.3
+      },
+      {
+        "image": "ind_1008.jpg",
+        "ground_truth": "TN21AT0492",
+        "prediction": "TN21AT0492",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.93,
+        "grammar_score": 0.99,
+        "latency_ms": 804.9
+      },
+      {
+        "image": "ind_1014.jpg",
+        "ground_truth": "MH02DW8021",
+        "prediction": "MH02DW8021",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.89,
+        "grammar_score": 0.99,
+        "latency_ms": 812.2
+      },
+      {
+        "image": "ind_1017.jpg",
+        "ground_truth": "MH02EK4399",
+        "prediction": "MH02EK4399",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.86,
+        "grammar_score": 0.99,
+        "latency_ms": 1076.4
+      },
+      {
+        "image": "ind_1019.jpg",
+        "ground_truth": "TN42R2697",
+        "prediction": "TN42R2697",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.86,
+        "grammar_score": 0.99,
+        "latency_ms": 805.6
+      },
+      {
+        "image": "ind_1025.jpg",
+        "ground_truth": "OR02BV0701",
+        "prediction": "UK07EV0701",
+        "exact_match": false,
+        "char_accuracy": 0.6,
+        "confidence": 0.91,
+        "grammar_score": 0.99,
+        "latency_ms": 691.8
+      },
+      {
+        "image": "ind_1027.jpg",
+        "ground_truth": "TN69AJ4455",
+        "prediction": "TN62AJ4455",
+        "exact_match": false,
+        "char_accuracy": 0.9,
+        "confidence": 0.87,
+        "grammar_score": 0.99,
+        "latency_ms": 711.7
+      },
+      {
+        "image": "ind_1029.jpg",
+        "ground_truth": "MH20BY4465",
+        "prediction": "MH20BY4465",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.89,
+        "grammar_score": 0.99,
+        "latency_ms": 695.4
+      },
+      {
+        "image": "ind_1030.jpg",
+        "ground_truth": "RJ27TA1143",
+        "prediction": "RJ27TM113",
+        "exact_match": false,
+        "char_accuracy": 0.8,
+        "confidence": 0.91,
+        "grammar_score": 0.9,
+        "latency_ms": 879.4
+      },
+      {
+        "image": "ind_1034.jpg",
+        "ground_truth": "ML10C2674",
+        "prediction": "ND01DC2674",
+        "exact_match": false,
+        "char_accuracy": 0.6,
+        "confidence": 0.83,
+        "grammar_score": 0.99,
+        "latency_ms": 776.6
+      },
+      {
+        "image": "ind_1035.jpg",
+        "ground_truth": "OR05AN4494",
+        "prediction": "DZ05AD0494",
+        "exact_match": false,
+        "char_accuracy": 0.6,
+        "confidence": 0.83,
+        "grammar_score": 0.99,
+        "latency_ms": 950.9
+      },
+      {
+        "image": "ind_1040.jpg",
+        "ground_truth": "GJ01HM5887",
+        "prediction": "GU01HM5887",
+        "exact_match": false,
+        "char_accuracy": 0.9,
+        "confidence": 0.86,
+        "grammar_score": 0.99,
+        "latency_ms": 734.1
+      },
+      {
+        "image": "ind_1047.jpg",
+        "ground_truth": "MH04DW9020",
+        "prediction": "MH04DW9020",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.89,
+        "grammar_score": 0.99,
+        "latency_ms": 1807.6
+      },
+      {
+        "image": "ind_1050.jpg",
+        "ground_truth": "DL10CH1252",
+        "prediction": "DL10CH1252",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.87,
+        "grammar_score": 0.99,
+        "latency_ms": 1081.2
+      },
+      {
+        "image": "ind_1056.jpg",
+        "ground_truth": "GJ051D9443",
+        "prediction": "GJ05TN443",
+        "exact_match": false,
+        "char_accuracy": 0.7,
+        "confidence": 0.81,
+        "grammar_score": 0.9,
+        "latency_ms": 766.7
+      }
+    ],
+    "Current Pipeline (Only Enhancer, No Ambiguity)": [
+      {
+        "image": "ind_0704.jpg",
+        "ground_truth": "MH02DS9365",
+        "prediction": "MH02DS9365",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.91,
+        "grammar_score": 0.99,
+        "latency_ms": 814.7
+      },
+      {
+        "image": "ind_0710.jpg",
+        "ground_truth": "KL43B2344",
+        "prediction": "KL43B2344",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.91,
+        "grammar_score": 0.99,
+        "latency_ms": 1095.9
+      },
+      {
+        "image": "ind_0716.jpg",
+        "ground_truth": "MH48AC6244",
+        "prediction": "MH48AC6244",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.88,
+        "grammar_score": 0.99,
+        "latency_ms": 626.0
+      },
+      {
+        "image": "ind_0717.jpg",
+        "ground_truth": "KL53E964",
+        "prediction": "KL53E964",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.92,
+        "grammar_score": 0.5,
+        "latency_ms": 1216.9
+      },
+      {
+        "image": "ind_0721.jpg",
+        "ground_truth": "HR51BU8218",
+        "prediction": "EHR5JBU8218",
+        "exact_match": false,
+        "char_accuracy": 0.8182,
+        "confidence": 0.86,
+        "grammar_score": 0.5,
+        "latency_ms": 797.7
+      },
+      {
+        "image": "ind_0729.jpg",
+        "ground_truth": "MH12JC2813",
+        "prediction": "MH12JC2813",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.92,
+        "grammar_score": 0.99,
+        "latency_ms": 697.9
+      },
+      {
+        "image": "ind_0738.jpg",
+        "ground_truth": "MH43AF5037",
+        "prediction": "MH43AF5037",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.92,
+        "grammar_score": 0.99,
+        "latency_ms": 798.8
+      },
+      {
+        "image": "ind_0769.jpg",
+        "ground_truth": "GJ09AG8384",
+        "prediction": "GJ09AG8384",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.87,
+        "grammar_score": 0.99,
+        "latency_ms": 812.7
+      },
+      {
+        "image": "ind_0776.jpg",
+        "ground_truth": "MH02EU4884",
+        "prediction": "MH02EU4884",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.92,
+        "grammar_score": 0.99,
+        "latency_ms": 876.6
+      },
+      {
+        "image": "ind_0780.jpg",
+        "ground_truth": "JK02CC0447",
+        "prediction": "FJK02CC0447",
+        "exact_match": false,
+        "char_accuracy": 0.9091,
+        "confidence": 0.89,
+        "grammar_score": 0.5,
+        "latency_ms": 827.7
+      },
+      {
+        "image": "ind_0806.jpg",
+        "ground_truth": "MH12GR862",
+        "prediction": "MH12GR862",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.86,
+        "grammar_score": 0.5,
+        "latency_ms": 852.4
+      },
+      {
+        "image": "ind_0818.jpg",
+        "ground_truth": "MH13BN4348",
+        "prediction": "MH134348BN",
+        "exact_match": false,
+        "char_accuracy": 0.6,
+        "confidence": 0.83,
+        "grammar_score": 0.5,
+        "latency_ms": 874.5
+      },
+      {
+        "image": "ind_0827.jpg",
+        "ground_truth": "MH02DN8718",
+        "prediction": "NOMH02DN8718",
+        "exact_match": false,
+        "char_accuracy": 0.8333,
+        "confidence": 0.93,
+        "grammar_score": 0.5,
+        "latency_ms": 1010.5
+      },
+      {
+        "image": "ind_0852.jpg",
+        "ground_truth": "MH02B16890",
+        "prediction": "MT02816890",
+        "exact_match": false,
+        "char_accuracy": 0.8,
+        "confidence": 0.72,
+        "grammar_score": 0.5,
+        "latency_ms": 894.1
+      },
+      {
+        "image": "ind_0853.jpg",
+        "ground_truth": "MP09CC1667",
+        "prediction": "NEMOCCUPY",
+        "exact_match": false,
+        "char_accuracy": 0.2,
+        "confidence": 0.85,
+        "grammar_score": 0.5,
+        "latency_ms": 764.9
+      },
+      {
+        "image": "ind_0859.jpg",
+        "ground_truth": "HR26DK0830",
+        "prediction": "NHR26DK0830",
+        "exact_match": false,
+        "char_accuracy": 0.9091,
+        "confidence": 0.92,
+        "grammar_score": 0.5,
+        "latency_ms": 1041.9
+      },
+      {
+        "image": "ind_0865.jpg",
+        "ground_truth": "CG13AE4060",
+        "prediction": "CG13AE2060",
+        "exact_match": false,
+        "char_accuracy": 0.9,
+        "confidence": 0.86,
+        "grammar_score": 0.99,
+        "latency_ms": 862.3
+      },
+      {
+        "image": "ind_0869.jpg",
+        "ground_truth": "MH02DQ0196",
+        "prediction": "MH02DQ0196",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.93,
+        "grammar_score": 0.99,
+        "latency_ms": 1152.1
+      },
+      {
+        "image": "ind_0874.jpg",
+        "ground_truth": "TN21AU7234",
+        "prediction": "TN21AU7234",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.87,
+        "grammar_score": 0.99,
+        "latency_ms": 740.7
+      },
+      {
+        "image": "ind_0879.jpg",
+        "ground_truth": "MH12SF3212",
+        "prediction": "SF3212",
+        "exact_match": false,
+        "char_accuracy": 0.6,
+        "confidence": 0.51,
+        "grammar_score": 0.2,
+        "latency_ms": 722.8
+      },
+      {
+        "image": "ind_0883.jpg",
+        "ground_truth": "TN21AT0479",
+        "prediction": "TN21AT0479",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.81,
+        "grammar_score": 0.99,
+        "latency_ms": 1338.4
+      },
+      {
+        "image": "ind_0909.jpg",
+        "ground_truth": "MH02DS9365",
+        "prediction": "MH02DS9365",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.92,
+        "grammar_score": 0.99,
+        "latency_ms": 657.3
+      },
+      {
+        "image": "ind_0930.jpg",
+        "ground_truth": "KL7BZ99",
+        "prediction": "KL7BZ99",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.83,
+        "grammar_score": 0.2,
+        "latency_ms": 642.9
+      },
+      {
+        "image": "ind_0934.jpg",
+        "ground_truth": "AP39E1493",
+        "prediction": "AP39E1493",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.86,
+        "grammar_score": 0.99,
+        "latency_ms": 681.4
+      },
+      {
+        "image": "ind_0946.jpg",
+        "ground_truth": "GJ18BD5216",
+        "prediction": "GJ18805216",
+        "exact_match": false,
+        "char_accuracy": 0.8,
+        "confidence": 0.86,
+        "grammar_score": 0.5,
+        "latency_ms": 686.9
+      },
+      {
+        "image": "ind_0948.jpg",
+        "ground_truth": "MH02DS4676",
+        "prediction": "MH02DS4676",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.88,
+        "grammar_score": 0.99,
+        "latency_ms": 1112.8
+      },
+      {
+        "image": "ind_0957.jpg",
+        "ground_truth": "MH47AV6753",
+        "prediction": "MH47AV6753",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.93,
+        "grammar_score": 0.99,
+        "latency_ms": 740.2
+      },
+      {
+        "image": "ind_0965.jpg",
+        "ground_truth": "TN28BA9999",
+        "prediction": "TN28BA9999",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.89,
+        "grammar_score": 0.99,
+        "latency_ms": 705.8
+      },
+      {
+        "image": "ind_0967.jpg",
+        "ground_truth": "KA38M8037",
+        "prediction": "KA38M8037",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.89,
+        "grammar_score": 0.99,
+        "latency_ms": 761.6
+      },
+      {
+        "image": "ind_0972.jpg",
+        "ground_truth": "AR048395",
+        "prediction": "AR048395",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.83,
+        "grammar_score": 0.99,
+        "latency_ms": 1544.8
+      },
+      {
+        "image": "ind_0977.jpg",
+        "ground_truth": "MH03CS6266",
+        "prediction": "MH03CS6266",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.95,
+        "grammar_score": 0.99,
+        "latency_ms": 988.2
+      },
+      {
+        "image": "ind_0981.jpg",
+        "ground_truth": "MH36H5700",
+        "prediction": "MR615700",
+        "exact_match": false,
+        "char_accuracy": 0.6667,
+        "confidence": 0.76,
+        "grammar_score": 0.99,
+        "latency_ms": 813.4
+      },
+      {
+        "image": "ind_0983.jpg",
+        "ground_truth": "HP666807",
+        "prediction": "HP666807",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.86,
+        "grammar_score": 0.99,
+        "latency_ms": 838.0
+      },
+      {
+        "image": "ind_0992.jpg",
+        "ground_truth": "GJ06FK2977",
+        "prediction": "GJ06FK2977",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.89,
+        "grammar_score": 0.99,
+        "latency_ms": 1230.3
+      },
+      {
+        "image": "ind_0996.jpg",
+        "ground_truth": "HR26CK8571",
+        "prediction": "HR26CK8571",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.89,
+        "grammar_score": 0.99,
+        "latency_ms": 897.9
+      },
+      {
+        "image": "ind_1001.jpg",
+        "ground_truth": "MH47AZ8323",
+        "prediction": "HH47AZ8323",
+        "exact_match": false,
+        "char_accuracy": 0.9,
+        "confidence": 0.89,
+        "grammar_score": 0.99,
+        "latency_ms": 839.1
+      },
+      {
+        "image": "ind_1008.jpg",
+        "ground_truth": "TN21AT0492",
+        "prediction": "TN21AT0492",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.93,
+        "grammar_score": 0.99,
+        "latency_ms": 896.5
+      },
+      {
+        "image": "ind_1014.jpg",
+        "ground_truth": "MH02DW8021",
+        "prediction": "SMH020W8021",
+        "exact_match": false,
+        "char_accuracy": 0.8182,
+        "confidence": 0.89,
+        "grammar_score": 0.5,
+        "latency_ms": 929.9
+      },
+      {
+        "image": "ind_1017.jpg",
+        "ground_truth": "MH02EK4399",
+        "prediction": "MH02EK4399",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.86,
+        "grammar_score": 0.99,
+        "latency_ms": 1267.5
+      },
+      {
+        "image": "ind_1019.jpg",
+        "ground_truth": "TN42R2697",
+        "prediction": "TN42R2697",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.86,
+        "grammar_score": 0.99,
+        "latency_ms": 905.3
+      },
+      {
+        "image": "ind_1025.jpg",
+        "ground_truth": "OR02BV0701",
+        "prediction": "OK07EV0701",
+        "exact_match": false,
+        "char_accuracy": 0.7,
+        "confidence": 0.91,
+        "grammar_score": 0.99,
+        "latency_ms": 793.3
+      },
+      {
+        "image": "ind_1027.jpg",
+        "ground_truth": "TN69AJ4455",
+        "prediction": "TN62AJ4455",
+        "exact_match": false,
+        "char_accuracy": 0.9,
+        "confidence": 0.87,
+        "grammar_score": 0.99,
+        "latency_ms": 780.5
+      },
+      {
+        "image": "ind_1029.jpg",
+        "ground_truth": "MH20BY4465",
+        "prediction": "HH20BY4465",
+        "exact_match": false,
+        "char_accuracy": 0.9,
+        "confidence": 0.89,
+        "grammar_score": 0.99,
+        "latency_ms": 797.3
+      },
+      {
+        "image": "ind_1030.jpg",
+        "ground_truth": "RJ27TA1143",
+        "prediction": "RJ271M113",
+        "exact_match": false,
+        "char_accuracy": 0.7,
+        "confidence": 0.91,
+        "grammar_score": 0.5,
+        "latency_ms": 1088.5
+      },
+      {
+        "image": "ind_1034.jpg",
+        "ground_truth": "ML10C2674",
+        "prediction": "NOC10C2674",
+        "exact_match": false,
+        "char_accuracy": 0.7,
+        "confidence": 0.83,
+        "grammar_score": 0.5,
+        "latency_ms": 898.8
+      },
+      {
+        "image": "ind_1035.jpg",
+        "ground_truth": "OR05AN4494",
+        "prediction": "0205400494",
+        "exact_match": false,
+        "char_accuracy": 0.5,
+        "confidence": 0.83,
+        "grammar_score": 0.5,
+        "latency_ms": 869.1
+      },
+      {
+        "image": "ind_1040.jpg",
+        "ground_truth": "GJ01HM5887",
+        "prediction": "GU01HM5887",
+        "exact_match": false,
+        "char_accuracy": 0.9,
+        "confidence": 0.86,
+        "grammar_score": 0.99,
+        "latency_ms": 832.2
+      },
+      {
+        "image": "ind_1047.jpg",
+        "ground_truth": "MH04DW9020",
+        "prediction": "MH04DW9020",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.89,
+        "grammar_score": 0.99,
+        "latency_ms": 1984.0
+      },
+      {
+        "image": "ind_1050.jpg",
+        "ground_truth": "DL10CH1252",
+        "prediction": "DL10CH1252",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.87,
+        "grammar_score": 0.99,
+        "latency_ms": 1255.5
+      },
+      {
+        "image": "ind_1056.jpg",
+        "ground_truth": "GJ051D9443",
+        "prediction": "GJ05IN443",
+        "exact_match": false,
+        "char_accuracy": 0.7,
+        "confidence": 0.81,
+        "grammar_score": 0.5,
+        "latency_ms": 912.3
+      }
+    ],
+    "Previous Baseline (No Enhancer, No Ambiguity)": [
+      {
+        "image": "ind_0704.jpg",
+        "ground_truth": "MH02DS9365",
+        "prediction": "MH02089365",
+        "exact_match": false,
+        "char_accuracy": 0.8,
+        "confidence": 0.91,
+        "grammar_score": 0.5,
+        "latency_ms": 1062.1
+      },
+      {
+        "image": "ind_0710.jpg",
+        "ground_truth": "KL43B2344",
+        "prediction": "KL43B2344",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.91,
+        "grammar_score": 0.99,
+        "latency_ms": 1416.0
+      },
+      {
+        "image": "ind_0716.jpg",
+        "ground_truth": "MH48AC6244",
+        "prediction": "MH48AC6244",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.88,
+        "grammar_score": 0.99,
+        "latency_ms": 952.8
+      },
+      {
+        "image": "ind_0717.jpg",
+        "ground_truth": "KL53E964",
+        "prediction": "KL53E964",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.92,
+        "grammar_score": 0.5,
+        "latency_ms": 1543.0
+      },
+      {
+        "image": "ind_0721.jpg",
+        "ground_truth": "HR51BU8218",
+        "prediction": "EHRS1BU8218",
+        "exact_match": false,
+        "char_accuracy": 0.8182,
+        "confidence": 0.86,
+        "grammar_score": 0.5,
+        "latency_ms": 1214.0
+      },
+      {
+        "image": "ind_0729.jpg",
+        "ground_truth": "MH12JC2813",
+        "prediction": "MH12JC2813",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.92,
+        "grammar_score": 0.99,
+        "latency_ms": 885.4
+      },
+      {
+        "image": "ind_0738.jpg",
+        "ground_truth": "MH43AF5037",
+        "prediction": "MH43AF5037",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.92,
+        "grammar_score": 0.99,
+        "latency_ms": 819.6
+      },
+      {
+        "image": "ind_0769.jpg",
+        "ground_truth": "GJ09AG8384",
+        "prediction": "GJ09AG8384",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.87,
+        "grammar_score": 0.99,
+        "latency_ms": 864.8
+      },
+      {
+        "image": "ind_0776.jpg",
+        "ground_truth": "MH02EU4884",
+        "prediction": "MH02EU4884",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.92,
+        "grammar_score": 0.99,
+        "latency_ms": 900.0
+      },
+      {
+        "image": "ind_0780.jpg",
+        "ground_truth": "JK02CC0447",
+        "prediction": "FJK02CC0447",
+        "exact_match": false,
+        "char_accuracy": 0.9091,
+        "confidence": 0.89,
+        "grammar_score": 0.5,
+        "latency_ms": 927.8
+      },
+      {
+        "image": "ind_0806.jpg",
+        "ground_truth": "MH12GR862",
+        "prediction": "MH12GR862",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.86,
+        "grammar_score": 0.5,
+        "latency_ms": 899.7
+      },
+      {
+        "image": "ind_0818.jpg",
+        "ground_truth": "MH13BN4348",
+        "prediction": "MH134348BN",
+        "exact_match": false,
+        "char_accuracy": 0.6,
+        "confidence": 0.83,
+        "grammar_score": 0.5,
+        "latency_ms": 810.0
+      },
+      {
+        "image": "ind_0827.jpg",
+        "ground_truth": "MH02DN8718",
+        "prediction": "INDMH02DN8718",
+        "exact_match": false,
+        "char_accuracy": 0.7692,
+        "confidence": 0.93,
+        "grammar_score": 0.5,
+        "latency_ms": 913.5
+      },
+      {
+        "image": "ind_0852.jpg",
+        "ground_truth": "MH02B16890",
+        "prediction": "MH02816890",
+        "exact_match": false,
+        "char_accuracy": 0.9,
+        "confidence": 0.72,
+        "grammar_score": 0.5,
+        "latency_ms": 928.4
+      },
+      {
+        "image": "ind_0853.jpg",
+        "ground_truth": "MP09CC1667",
+        "prediction": "NIPACCO1667",
+        "exact_match": false,
+        "char_accuracy": 0.5455,
+        "confidence": 0.85,
+        "grammar_score": 0.5,
+        "latency_ms": 962.3
+      },
+      {
+        "image": "ind_0859.jpg",
+        "ground_truth": "HR26DK0830",
+        "prediction": "HR2GDK0830",
+        "exact_match": false,
+        "char_accuracy": 0.9,
+        "confidence": 0.92,
+        "grammar_score": 0.99,
+        "latency_ms": 1047.0
+      },
+      {
+        "image": "ind_0865.jpg",
+        "ground_truth": "CG13AE4060",
+        "prediction": "CG13AE4060",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.86,
+        "grammar_score": 0.99,
+        "latency_ms": 817.6
+      },
+      {
+        "image": "ind_0869.jpg",
+        "ground_truth": "MH02DQ0196",
+        "prediction": "MH02DQ0196",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.93,
+        "grammar_score": 0.99,
+        "latency_ms": 1159.6
+      },
+      {
+        "image": "ind_0874.jpg",
+        "ground_truth": "TN21AU7234",
+        "prediction": "TN21AU7234",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.87,
+        "grammar_score": 0.99,
+        "latency_ms": 872.4
+      },
+      {
+        "image": "ind_0879.jpg",
+        "ground_truth": "MH12SF3212",
+        "prediction": "SF3212",
+        "exact_match": false,
+        "char_accuracy": 0.6,
+        "confidence": 0.51,
+        "grammar_score": 0.2,
+        "latency_ms": 671.8
+      },
+      {
+        "image": "ind_0883.jpg",
+        "ground_truth": "TN21AT0479",
+        "prediction": "TN21AT0479",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.81,
+        "grammar_score": 0.99,
+        "latency_ms": 1556.4
+      },
+      {
+        "image": "ind_0909.jpg",
+        "ground_truth": "MH02DS9365",
+        "prediction": "MH02DS9365",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.92,
+        "grammar_score": 0.99,
+        "latency_ms": 997.4
+      },
+      {
+        "image": "ind_0930.jpg",
+        "ground_truth": "KL7BZ99",
+        "prediction": "KL7BZ99",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.83,
+        "grammar_score": 0.2,
+        "latency_ms": 887.1
+      },
+      {
+        "image": "ind_0934.jpg",
+        "ground_truth": "AP39E1493",
+        "prediction": "AP39E1493",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.86,
+        "grammar_score": 0.99,
+        "latency_ms": 826.2
+      },
+      {
+        "image": "ind_0946.jpg",
+        "ground_truth": "GJ18BD5216",
+        "prediction": "GJ188D5216",
+        "exact_match": false,
+        "char_accuracy": 0.9,
+        "confidence": 0.86,
+        "grammar_score": 0.5,
+        "latency_ms": 896.8
+      },
+      {
+        "image": "ind_0948.jpg",
+        "ground_truth": "MH02DS4676",
+        "prediction": "MH02DS4676",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.88,
+        "grammar_score": 0.99,
+        "latency_ms": 1348.7
+      },
+      {
+        "image": "ind_0957.jpg",
+        "ground_truth": "MH47AV6753",
+        "prediction": "MH47AV6753",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.93,
+        "grammar_score": 0.99,
+        "latency_ms": 952.4
+      },
+      {
+        "image": "ind_0965.jpg",
+        "ground_truth": "TN28BA9999",
+        "prediction": "TN28BA9999",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.89,
+        "grammar_score": 0.99,
+        "latency_ms": 1043.2
+      },
+      {
+        "image": "ind_0967.jpg",
+        "ground_truth": "KA38M8037",
+        "prediction": "KA38M8037",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.89,
+        "grammar_score": 0.99,
+        "latency_ms": 964.7
+      },
+      {
+        "image": "ind_0972.jpg",
+        "ground_truth": "AR048395",
+        "prediction": "AR048395",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.83,
+        "grammar_score": 0.99,
+        "latency_ms": 1533.6
+      },
+      {
+        "image": "ind_0977.jpg",
+        "ground_truth": "MH03CS6266",
+        "prediction": "MH03CS6266",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.95,
+        "grammar_score": 0.99,
+        "latency_ms": 974.6
+      },
+      {
+        "image": "ind_0981.jpg",
+        "ground_truth": "MH36H5700",
+        "prediction": "MH36H5700",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.76,
+        "grammar_score": 0.99,
+        "latency_ms": 799.4
+      },
+      {
+        "image": "ind_0983.jpg",
+        "ground_truth": "HP666807",
+        "prediction": "HP666807",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.86,
+        "grammar_score": 0.99,
+        "latency_ms": 816.0
+      },
+      {
+        "image": "ind_0992.jpg",
+        "ground_truth": "GJ06FK2977",
+        "prediction": "GJ06FK2977",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.89,
+        "grammar_score": 0.99,
+        "latency_ms": 1482.6
+      },
+      {
+        "image": "ind_0996.jpg",
+        "ground_truth": "HR26CK8571",
+        "prediction": "HR26CK8571",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.89,
+        "grammar_score": 0.99,
+        "latency_ms": 937.6
+      },
+      {
+        "image": "ind_1001.jpg",
+        "ground_truth": "MH47AZ8323",
+        "prediction": "MH47AZ8323",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.89,
+        "grammar_score": 0.99,
+        "latency_ms": 953.3
+      },
+      {
+        "image": "ind_1008.jpg",
+        "ground_truth": "TN21AT0492",
+        "prediction": "TN21AT0492",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.93,
+        "grammar_score": 0.99,
+        "latency_ms": 921.5
+      },
+      {
+        "image": "ind_1014.jpg",
+        "ground_truth": "MH02DW8021",
+        "prediction": "MH020W8021",
+        "exact_match": false,
+        "char_accuracy": 0.9,
+        "confidence": 0.89,
+        "grammar_score": 0.5,
+        "latency_ms": 887.4
+      },
+      {
+        "image": "ind_1017.jpg",
+        "ground_truth": "MH02EK4399",
+        "prediction": "MH02EK4399",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.86,
+        "grammar_score": 0.99,
+        "latency_ms": 1343.1
+      },
+      {
+        "image": "ind_1019.jpg",
+        "ground_truth": "TN42R2697",
+        "prediction": "TN42R2697",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.86,
+        "grammar_score": 0.99,
+        "latency_ms": 983.7
+      },
+      {
+        "image": "ind_1025.jpg",
+        "ground_truth": "OR02BV0701",
+        "prediction": "0128V0701",
+        "exact_match": false,
+        "char_accuracy": 0.6,
+        "confidence": 0.91,
+        "grammar_score": 0.5,
+        "latency_ms": 800.1
+      },
+      {
+        "image": "ind_1027.jpg",
+        "ground_truth": "TN69AJ4455",
+        "prediction": "TN69AJ4455",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.87,
+        "grammar_score": 0.99,
+        "latency_ms": 779.5
+      },
+      {
+        "image": "ind_1029.jpg",
+        "ground_truth": "MH20BY4465",
+        "prediction": "MH20BY4465",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.89,
+        "grammar_score": 0.99,
+        "latency_ms": 747.6
+      },
+      {
+        "image": "ind_1030.jpg",
+        "ground_truth": "RJ27TA1143",
+        "prediction": "RJ271A1113",
+        "exact_match": false,
+        "char_accuracy": 0.8,
+        "confidence": 0.91,
+        "grammar_score": 0.5,
+        "latency_ms": 917.9
+      },
+      {
+        "image": "ind_1034.jpg",
+        "ground_truth": "ML10C2674",
+        "prediction": "NL10C2674",
+        "exact_match": false,
+        "char_accuracy": 0.8889,
+        "confidence": 0.83,
+        "grammar_score": 0.99,
+        "latency_ms": 802.4
+      },
+      {
+        "image": "ind_1035.jpg",
+        "ground_truth": "OR05AN4494",
+        "prediction": "OROSAN4494",
+        "exact_match": false,
+        "char_accuracy": 0.8,
+        "confidence": 0.83,
+        "grammar_score": 0.5,
+        "latency_ms": 717.6
+      },
+      {
+        "image": "ind_1040.jpg",
+        "ground_truth": "GJ01HM5887",
+        "prediction": "GJ01HM5887",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.86,
+        "grammar_score": 0.99,
+        "latency_ms": 863.7
+      },
+      {
+        "image": "ind_1047.jpg",
+        "ground_truth": "MH04DW9020",
+        "prediction": "MH04DW9020",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.89,
+        "grammar_score": 0.99,
+        "latency_ms": 2057.0
+      },
+      {
+        "image": "ind_1050.jpg",
+        "ground_truth": "DL10CH1252",
+        "prediction": "DL10CH1252",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.87,
+        "grammar_score": 0.99,
+        "latency_ms": 1262.7
+      },
+      {
+        "image": "ind_1056.jpg",
+        "ground_truth": "GJ051D9443",
+        "prediction": "GJ05IN3443",
+        "exact_match": false,
+        "char_accuracy": 0.7,
+        "confidence": 0.81,
+        "grammar_score": 0.99,
+        "latency_ms": 980.9
+      }
+    ],
+    "Previous Pipeline (No Enhancer, With Ambiguity)": [
+      {
+        "image": "ind_0704.jpg",
+        "ground_truth": "MH02DS9365",
+        "prediction": "MH02DB9365",
+        "exact_match": false,
+        "char_accuracy": 0.9,
+        "confidence": 0.91,
+        "grammar_score": 0.99,
+        "latency_ms": 1083.5
+      },
+      {
+        "image": "ind_0710.jpg",
+        "ground_truth": "KL43B2344",
+        "prediction": "KL43B2344",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.91,
+        "grammar_score": 0.99,
+        "latency_ms": 1395.6
+      },
+      {
+        "image": "ind_0716.jpg",
+        "ground_truth": "MH48AC6244",
+        "prediction": "MH48AC6244",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.88,
+        "grammar_score": 0.99,
+        "latency_ms": 902.2
+      },
+      {
+        "image": "ind_0717.jpg",
+        "ground_truth": "KL53E964",
+        "prediction": "KL53E964",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.92,
+        "grammar_score": 0.9,
+        "latency_ms": 1442.4
+      },
+      {
+        "image": "ind_0721.jpg",
+        "ground_truth": "HR51BU8218",
+        "prediction": "HR51BU8218",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.86,
+        "grammar_score": 0.99,
+        "latency_ms": 872.9
+      },
+      {
+        "image": "ind_0729.jpg",
+        "ground_truth": "MH12JC2813",
+        "prediction": "MH12JC2813",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.92,
+        "grammar_score": 0.99,
+        "latency_ms": 816.7
+      },
+      {
+        "image": "ind_0738.jpg",
+        "ground_truth": "MH43AF5037",
+        "prediction": "MH43AF5037",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.92,
+        "grammar_score": 0.99,
+        "latency_ms": 968.8
+      },
+      {
+        "image": "ind_0769.jpg",
+        "ground_truth": "GJ09AG8384",
+        "prediction": "GJ09AG8384",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.87,
+        "grammar_score": 0.99,
+        "latency_ms": 835.0
+      },
+      {
+        "image": "ind_0776.jpg",
+        "ground_truth": "MH02EU4884",
+        "prediction": "MH02EU4884",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.92,
+        "grammar_score": 0.99,
+        "latency_ms": 790.8
+      },
+      {
+        "image": "ind_0780.jpg",
+        "ground_truth": "JK02CC0447",
+        "prediction": "JK02CC0447",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.89,
+        "grammar_score": 0.99,
+        "latency_ms": 897.5
+      },
+      {
+        "image": "ind_0806.jpg",
+        "ground_truth": "MH12GR862",
+        "prediction": "MH12GR862",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.86,
+        "grammar_score": 0.9,
+        "latency_ms": 968.7
+      },
+      {
+        "image": "ind_0818.jpg",
+        "ground_truth": "MH13BN4348",
+        "prediction": "MH13AEABBN",
+        "exact_match": false,
+        "char_accuracy": 0.4,
+        "confidence": 0.83,
+        "grammar_score": 0.6,
+        "latency_ms": 874.9
+      },
+      {
+        "image": "ind_0827.jpg",
+        "ground_truth": "MH02DN8718",
+        "prediction": "MH02DN8718",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.93,
+        "grammar_score": 0.99,
+        "latency_ms": 974.3
+      },
+      {
+        "image": "ind_0852.jpg",
+        "ground_truth": "MH02B16890",
+        "prediction": "MH02BT6890",
+        "exact_match": false,
+        "char_accuracy": 0.9,
+        "confidence": 0.72,
+        "grammar_score": 0.99,
+        "latency_ms": 881.6
+      },
+      {
+        "image": "ind_0853.jpg",
+        "ground_truth": "MP09CC1667",
+        "prediction": "NTPACCD1667",
+        "exact_match": false,
+        "char_accuracy": 0.5455,
+        "confidence": 0.85,
+        "grammar_score": 0.45,
+        "latency_ms": 888.2
+      },
+      {
+        "image": "ind_0859.jpg",
+        "ground_truth": "HR26DK0830",
+        "prediction": "HR26DK0830",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.92,
+        "grammar_score": 0.99,
+        "latency_ms": 935.7
+      },
+      {
+        "image": "ind_0865.jpg",
+        "ground_truth": "CG13AE4060",
+        "prediction": "CG13AE4060",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.86,
+        "grammar_score": 0.99,
+        "latency_ms": 828.5
+      },
+      {
+        "image": "ind_0869.jpg",
+        "ground_truth": "MH02DQ0196",
+        "prediction": "MH02DQ0196",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.93,
+        "grammar_score": 0.99,
+        "latency_ms": 1199.1
+      },
+      {
+        "image": "ind_0874.jpg",
+        "ground_truth": "TN21AU7234",
+        "prediction": "TN21AU7234",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.87,
+        "grammar_score": 0.99,
+        "latency_ms": 820.8
+      },
+      {
+        "image": "ind_0879.jpg",
+        "ground_truth": "MH12SF3212",
+        "prediction": "SF3212",
+        "exact_match": false,
+        "char_accuracy": 0.6,
+        "confidence": 0.51,
+        "grammar_score": 0.55,
+        "latency_ms": 784.9
+      },
+      {
+        "image": "ind_0883.jpg",
+        "ground_truth": "TN21AT0479",
+        "prediction": "TN21AT0479",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.81,
+        "grammar_score": 0.99,
+        "latency_ms": 1535.1
+      },
+      {
+        "image": "ind_0909.jpg",
+        "ground_truth": "MH02DS9365",
+        "prediction": "MH02DS9365",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.92,
+        "grammar_score": 0.99,
+        "latency_ms": 1000.1
+      },
+      {
+        "image": "ind_0930.jpg",
+        "ground_truth": "KL7BZ99",
+        "prediction": "KL78Z99",
+        "exact_match": false,
+        "char_accuracy": 0.8571,
+        "confidence": 0.83,
+        "grammar_score": 0.9,
+        "latency_ms": 776.6
+      },
+      {
+        "image": "ind_0934.jpg",
+        "ground_truth": "AP39E1493",
+        "prediction": "AP39E1493",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.86,
+        "grammar_score": 0.99,
+        "latency_ms": 740.2
+      },
+      {
+        "image": "ind_0946.jpg",
+        "ground_truth": "GJ18BD5216",
+        "prediction": "GJ18BD5216",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.86,
+        "grammar_score": 0.99,
+        "latency_ms": 889.9
+      },
+      {
+        "image": "ind_0948.jpg",
+        "ground_truth": "MH02DS4676",
+        "prediction": "MH02DS4676",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.88,
+        "grammar_score": 0.99,
+        "latency_ms": 1250.2
+      },
+      {
+        "image": "ind_0957.jpg",
+        "ground_truth": "MH47AV6753",
+        "prediction": "MH47AV6753",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.93,
+        "grammar_score": 0.99,
+        "latency_ms": 898.8
+      },
+      {
+        "image": "ind_0965.jpg",
+        "ground_truth": "TN28BA9999",
+        "prediction": "TN28BA9999",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.89,
+        "grammar_score": 0.99,
+        "latency_ms": 794.0
+      },
+      {
+        "image": "ind_0967.jpg",
+        "ground_truth": "KA38M8037",
+        "prediction": "KA38M8037",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.89,
+        "grammar_score": 0.99,
+        "latency_ms": 891.4
+      },
+      {
+        "image": "ind_0972.jpg",
+        "ground_truth": "AR048395",
+        "prediction": "AR048395",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.83,
+        "grammar_score": 0.99,
+        "latency_ms": 1469.6
+      },
+      {
+        "image": "ind_0977.jpg",
+        "ground_truth": "MH03CS6266",
+        "prediction": "MH03CS6266",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.95,
+        "grammar_score": 0.99,
+        "latency_ms": 1014.5
+      },
+      {
+        "image": "ind_0981.jpg",
+        "ground_truth": "MH36H5700",
+        "prediction": "MH36H5700",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.76,
+        "grammar_score": 0.99,
+        "latency_ms": 793.5
+      },
+      {
+        "image": "ind_0983.jpg",
+        "ground_truth": "HP666807",
+        "prediction": "HP666807",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.86,
+        "grammar_score": 0.99,
+        "latency_ms": 740.1
+      },
+      {
+        "image": "ind_0992.jpg",
+        "ground_truth": "GJ06FK2977",
+        "prediction": "GJ06FK2977",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.89,
+        "grammar_score": 0.99,
+        "latency_ms": 1284.9
+      },
+      {
+        "image": "ind_0996.jpg",
+        "ground_truth": "HR26CK8571",
+        "prediction": "HR26CK8571",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.89,
+        "grammar_score": 0.99,
+        "latency_ms": 944.5
+      },
+      {
+        "image": "ind_1001.jpg",
+        "ground_truth": "MH47AZ8323",
+        "prediction": "MH47AZ8323",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.89,
+        "grammar_score": 0.99,
+        "latency_ms": 929.1
+      },
+      {
+        "image": "ind_1008.jpg",
+        "ground_truth": "TN21AT0492",
+        "prediction": "TN21AT0492",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.93,
+        "grammar_score": 0.99,
+        "latency_ms": 961.9
+      },
+      {
+        "image": "ind_1014.jpg",
+        "ground_truth": "MH02DW8021",
+        "prediction": "MH02DW8021",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.89,
+        "grammar_score": 0.99,
+        "latency_ms": 909.7
+      },
+      {
+        "image": "ind_1017.jpg",
+        "ground_truth": "MH02EK4399",
+        "prediction": "MH02EK4399",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.86,
+        "grammar_score": 0.99,
+        "latency_ms": 1410.4
+      },
+      {
+        "image": "ind_1019.jpg",
+        "ground_truth": "TN42R2697",
+        "prediction": "TN42R2697",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.86,
+        "grammar_score": 0.99,
+        "latency_ms": 842.5
+      },
+      {
+        "image": "ind_1025.jpg",
+        "ground_truth": "OR02BV0701",
+        "prediction": "DT28V0701",
+        "exact_match": false,
+        "char_accuracy": 0.6,
+        "confidence": 0.91,
+        "grammar_score": 0.99,
+        "latency_ms": 818.3
+      },
+      {
+        "image": "ind_1027.jpg",
+        "ground_truth": "TN69AJ4455",
+        "prediction": "TN69AJ4455",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.87,
+        "grammar_score": 0.99,
+        "latency_ms": 840.9
+      },
+      {
+        "image": "ind_1029.jpg",
+        "ground_truth": "MH20BY4465",
+        "prediction": "MH20BY4465",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.89,
+        "grammar_score": 0.99,
+        "latency_ms": 835.1
+      },
+      {
+        "image": "ind_1030.jpg",
+        "ground_truth": "RJ27TA1143",
+        "prediction": "RJ27TA1113",
+        "exact_match": false,
+        "char_accuracy": 0.9,
+        "confidence": 0.91,
+        "grammar_score": 0.99,
+        "latency_ms": 1024.0
+      },
+      {
+        "image": "ind_1034.jpg",
+        "ground_truth": "ML10C2674",
+        "prediction": "NL10C2674",
+        "exact_match": false,
+        "char_accuracy": 0.8889,
+        "confidence": 0.83,
+        "grammar_score": 0.99,
+        "latency_ms": 777.0
+      },
+      {
+        "image": "ind_1035.jpg",
+        "ground_truth": "OR05AN4494",
+        "prediction": "OR05AN4494",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.83,
+        "grammar_score": 0.99,
+        "latency_ms": 714.8
+      },
+      {
+        "image": "ind_1040.jpg",
+        "ground_truth": "GJ01HM5887",
+        "prediction": "GJ01HM5887",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.86,
+        "grammar_score": 0.99,
+        "latency_ms": 854.8
+      },
+      {
+        "image": "ind_1047.jpg",
+        "ground_truth": "MH04DW9020",
+        "prediction": "MH04DW9020",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.89,
+        "grammar_score": 0.99,
+        "latency_ms": 1884.8
+      },
+      {
+        "image": "ind_1050.jpg",
+        "ground_truth": "DL10CH1252",
+        "prediction": "DL10CH1252",
+        "exact_match": true,
+        "char_accuracy": 1.0,
+        "confidence": 0.87,
+        "grammar_score": 0.99,
+        "latency_ms": 1257.8
+      },
+      {
+        "image": "ind_1056.jpg",
+        "ground_truth": "GJ051D9443",
+        "prediction": "GJ05TN3443",
+        "exact_match": false,
+        "char_accuracy": 0.7,
+        "confidence": 0.81,
+        "grammar_score": 0.99,
+        "latency_ms": 973.0
+      }
+    ]
+  }
+}

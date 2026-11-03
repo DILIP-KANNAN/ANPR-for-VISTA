@@ -1,0 +1,31 @@
+{
+  "timestamp": "2026-09-08 10:46:22",
+  "hardware": "NVIDIA GeForce RTX 4060 Laptop GPU (8GB VRAM)",
+  "total_tracks": 25,
+  "single_frame_exact_match_rate": 68.0,
+  "single_frame_char_acc": 93.56,
+  "temporal_fused_exact_match_rate": 72.0,
+  "temporal_fused_char_acc": 94.31,
+  "avg_temporal_consistency": 0.954,
+  "avg_latency_per_frame_ms": 931.13,
+  "sample_output_event": {
+    "event_id": "evt_00127",
+    "camera_id": "CAM07",
+    "timestamp": "2026-09-08T10:44:52",
+    "location": "Anna Nagar",
+    "vehicle": {
+      "track_id": 1,
+      "type": "car",
+      "color": "silver",
+      "speed_kmph": 5.0,
+      "direction": "E"
+    },
+    "anpr": {
+      "plate": "MH47Y1124",
+      "confidence": 0.91,
+      "ocr_confidence": 0.95,
+      "grammar_score": 0.99,
+      "temporal_consistency": 1.0
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-09-08 10:37:52",
+  "hardware": "NVIDIA GeForce RTX 4060 Laptop GPU (8GB VRAM)",
+  "samples_evaluated": 20,
+  "results": {
+    "got_ocr": {
+      "engine": "got_ocr",
+      "total_images": 20,
+      "plate_detection_rate": 100.0,
+      "exact_match_rate": 70.0,
+      "char_accuracy": 90.1,
+      "valid_grammar_rate": 95.0,
+      "avg_pipeline_latency_ms": 902.71
+    }
+  }
+}

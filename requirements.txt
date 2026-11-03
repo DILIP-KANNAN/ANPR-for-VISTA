@@ -1,0 +1,26 @@
+# ANPR for VISTA: Real-Time Edge Automatic Number Plate Recognition
+# Python 3.10+ Dependencies
+
+# Core Deep Learning & Computer Vision
+torch>=2.0.0
+torchvision>=0.15.0
+ultralytics>=8.3.0
+opencv-python>=4.8.0.76
+numpy>=1.24.0,<2.0.0
+scipy>=1.10.0
+
+# Image & Scientific Computing
+scikit-image>=0.21.0
+matplotlib>=3.7.0
+pandas>=2.0.0
+Pillow>=9.5.0
+
+# Optional Foundation Model Tier-2 OCR & Feature Extractors
+transformers>=4.36.0
+accelerate>=0.25.0
+timm>=0.9.0
+easyocr>=1.7.0
+
+# Edge Export & Performance Optimization
+torchscript>=0.1.0
+tqdm>=4.65.0

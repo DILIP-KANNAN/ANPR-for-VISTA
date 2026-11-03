@@ -1,0 +1,42 @@
+[
+  {
+    "event_id": "evt_00124",
+    "camera_id": "CAM07",
+    "timestamp": "2026-09-07T19:19:12",
+    "location": "Anna Nagar",
+    "vehicle": {
+      "track_id": 1,
+      "type": "car",
+      "color": "black",
+      "speed_kmph": 40.0,
+      "direction": "N"
+    },
+    "anpr": {
+      "plate": "UP8LAE9889MH0",
+      "confidence": 0.93,
+      "ocr_confidence": 0.55,
+      "grammar_score": 0.6,
+      "temporal_consistency": 1.0
+    }
+  },
+  {
+    "event_id": "evt_00125",
+    "camera_id": "CAM07",
+    "timestamp": "2026-09-07T19:19:12",
+    "location": "Anna Nagar",
+    "vehicle": {
+      "track_id": 2,
+      "type": "car",
+      "color": "grey",
+      "speed_kmph": 40.0,
+      "direction": "N"
+    },
+    "anpr": {
+      "plate": "UP8ELAE9889MH0",
+      "confidence": 0.73,
+      "ocr_confidence": 0.58,
+      "grammar_score": 0.6,
+      "temporal_consistency": 1.0
+    }
+  }
+]
